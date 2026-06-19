@@ -6,8 +6,9 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Industrial Boiler Thermal Decay Twin", layout="wide")
 st.title("🏭 Industrial Boiler Thermal Decay Twin")
 st.markdown("""
-This simulator uses **Newton's Law of Cooling** to model the transient thermal decay of an industrial boiler system after shutdown. 
-It resolves the explicit system cooling constant ($k$) and tracks convergence toward environmental equilibrium.
+This simulator is developed by Serin Thomas, uses **Newton's Law of Cooling** to model the transient thermal decay of an industrial boiler system after shutdown. 
+It resolves the explicit system cooling constant ($k$) and tracks convergence toward environmental equilibrium. The technical blog for this app is in the following link:
+https://serinthomas.co.in/2026/06/19/the-thermodynamics-of-a-spilled-drink/
 """)
 
 st.divider()
